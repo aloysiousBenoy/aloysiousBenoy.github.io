@@ -1,0 +1,71 @@
+body{
+    font-family: Arial;
+    font-size: medium;
+    background-color: #08081f;
+}
+.title h1{
+    font-family: fantasy;
+    font-size: 32px;
+    color: dodgerblue;
+    text-align: center;
+}
+h3{
+    text-align: center;
+    color: linen;
+}
+.title p{
+    font-weight: bold;
+    color: lightslategray;
+    text-align: center;
+}
+.avatar img{
+    border-radius: 34%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightslategrey;
+}
+.intro p{
+    color: cornsilk;
+    text-align: center;
+    background-color: rgb(9, 9, 102);
+    padding: 10px;
+    border-radius: 8px;
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.social img{
+    border-radius: 10px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.social{
+    background-color:rgb(9, 9, 102) ;
+    display: block;
+    margin-right: 20%;
+    margin-left: 20%;
+    border-radius: 8px;
+    padding: 20px;
+    padding-top: 1px;
+}
+.social p{
+    font-weight: bold;
+    color: darkgrey;
+    text-align: center;
+}
+footer{
+    background-color: darkslateblue;
+    display: block;
+    margin: 20%;
+    margin-top: 10px;
+    margin-bottom: auto;
+    border-radius: 8px;
+    padding: 5px;
+    color: lightslategray;
+    text-align: center;
+}
+
+
