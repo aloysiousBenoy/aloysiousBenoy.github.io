@@ -1,24 +1,29 @@
-body{
+body {
     font-family: Arial;
     font-size: medium;
     background-color: #08081f;
 }
-.title h1{
+
+.title h1 {
     font-family: fantasy;
     font-size: 32px;
     color: dodgerblue;
     text-align: center;
 }
-h3{
+
+h3 {
     text-align: center;
     color: linen;
 }
-.title p{
+
+.title p {
     font-weight: bold;
     color: lightslategray;
     text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
-.avatar img{
+
+.avatar img {
     border-radius: 34%;
     text-align: center;
     display: block;
@@ -26,7 +31,8 @@ h3{
     margin-right: auto;
     background-color: lightslategrey;
 }
-.intro p{
+
+.intro p {
     color: cornsilk;
     text-align: center;
     background-color: rgb(9, 9, 102);
@@ -35,15 +41,18 @@ h3{
     display: block;
     margin-left: 20%;
     margin-right: 20%;
+    font-family: 'Josefin Sans', sans-serif;
 }
-.social img{
+
+.social img {
     border-radius: 10px;
     display: block;
     margin-right: auto;
     margin-left: auto;
 }
-.social{
-    background-color:rgb(9, 9, 102) ;
+
+.social {
+    background-color: rgb(9, 9, 102);
     display: block;
     margin-right: 20%;
     margin-left: 20%;
@@ -51,12 +60,14 @@ h3{
     padding: 20px;
     padding-top: 1px;
 }
-.social p{
+
+.social p {
     font-weight: bold;
     color: darkgrey;
     text-align: center;
 }
-footer{
+
+footer {
     background-color: darkslateblue;
     display: block;
     margin: 20%;
@@ -67,5 +78,3 @@ footer{
     color: lightslategray;
     text-align: center;
 }
-
-
