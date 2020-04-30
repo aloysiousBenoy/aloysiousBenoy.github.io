@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body {
     font-family: Arial;
     font-size: medium;
@@ -10,10 +13,18 @@ body {
     color: dodgerblue;
     text-align: center;
 }
+.first{
+    font-size: xx-large;
+    color: rgb(118, 99, 240);
+    font-family: 'Press Start 2P', cursive;
 
+}
 h3 {
     text-align: center;
     color: linen;
+    font-family: 'Press Start 2P', sans-serif;
+    letter-spacing: 1px;
+
 }
 
 .title p {
@@ -37,11 +48,16 @@ h3 {
     text-align: center;
     background-color: rgb(9, 9, 102);
     padding: 10px;
+    padding-right: 10%;
     border-radius: 8px;
     display: block;
-    margin-left: 20%;
-    margin-right: 20%;
-    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 10%;
+    margin-right: auto;
+    font-family: 'Press Start 2P','Josefin Sans', sans-serif;
+    line-height: 1.75;
+    font-size: medium;
+    font-weight: 100;
+    margin-bottom: 10px;
 }
 
 .social img {
@@ -54,10 +70,12 @@ h3 {
 .social {
     background-color: rgb(9, 9, 102);
     display: block;
-    margin-right: 20%;
-    margin-left: 20%;
+    margin-right: 10%;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border-radius: 8px;
-    padding: 20px;
+    padding: 1px;
     padding-top: 1px;
 }
 
@@ -70,7 +88,8 @@ h3 {
 footer {
     background-color: darkslateblue;
     display: block;
-    margin: 20%;
+    margin-left: 10%;
+    margin-right: auto;
     margin-top: 10px;
     margin-bottom: auto;
     border-radius: 8px;
