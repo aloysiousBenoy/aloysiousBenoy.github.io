@@ -1,3 +1,7 @@
+@font-face{
+    font-family: press;
+    src: url(./fonts/PressStart2P-Regular.ttf) format('truetype');
+}
 *{
     box-sizing: border-box;
 }
@@ -8,21 +12,22 @@ body {
 }
 
 .title h1 {
-    font-family: 'Press Start 2P', cursive;
+    font-family: press, cursive;
     font-size: 32px;
     color: dodgerblue;
     text-align: center;
 }
 .first{
     font-size: xx-large;
-    color: rgb(118, 99, 240);
-    font-family: 'Press Start 2P', cursive;
-
+    color: rgb(195, 186, 250);
+    font-family: cursive;
+    letter-spacing: 1px;
+    
 }
 h3 {
     text-align: center;
     color: linen;
-    font-family: 'Press Start 2P', monospace;
+    font-family: press, monospace;
     letter-spacing: 1px;
 
 }
@@ -53,7 +58,7 @@ h3 {
     display: block;
     margin-left: 10%;
     margin-right: auto;
-    font-family: 'Press Start 2P','Josefin Sans', sans-serif;
+    font-family: press,'Josefin Sans', sans-serif;
     line-height: 1.75;
     font-size: medium;
     font-weight: 100;
