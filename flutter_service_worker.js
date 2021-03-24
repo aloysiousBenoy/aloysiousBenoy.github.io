@@ -29,9 +29,9 @@ const RESOURCES = {
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/AssetManifest.json": "bca8a1ae9839fe8f4c1548a74cdbb22b",
 "version.json": "5a3283c4a0c0aa9f7eba1f8f5c952d49",
-"index.html": "6d037dbec3cc28397d2b5555f4a8a826",
-"/": "6d037dbec3cc28397d2b5555f4a8a826",
-"main.dart.js": "4cce47db89c30a129da288decdb2e890"
+"index.html": "2c7b393a2bd107d87f5d599ac67c32d4",
+"/": "2c7b393a2bd107d87f5d599ac67c32d4",
+"main.dart.js": "5b67f2abf6debd8413b7b56061ff38ee"
 };
 
 // The application shell files that are downloaded before a service worker can
