@@ -1,57 +1,45 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title>Aloysious Benoy | Portfolio</title>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    Fore more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+  -->
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="dinohdb">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>dinohdb</title>
+  <link rel="manifest" href="manifest.json">
 </head>
-<link href="src/index.css" type="text/css" rel="stylesheet" />
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300;1,400&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
-
 <body>
-    <header class="title">o
-        <a href="https://aloysiousbenoy.github.io/">
-            <figure class="avatar">
-                <img src="./src/20200401_011304.jpg" alt="picture of aloysious benoy" height="225px" width="270px">
-            </figure>
-        </a>
-        <h1>Aloysious Benoy</h1>
-        <p>B.Tech Student @ GEC Barton Hill</p>
-        <h3>arduino | web | flutter | python | cpp | blender</h3>
-    </header>
-    <article class="intro">
-        <p>
-            <span class="first">H</span>ello world! Aloysious here. I am just another B.Tech aspirant with lots of
-            dreams(the kind that keeps you awake at night, wink).<br>
-            The one thing that keeps me moving is the need to improve myself. When I am free or lazy (mostly all the
-            time)
-            you can spot me either in some subreddit or on twitter.<br> I love tinkering and its one of the things I do
-            the most.
-        </p>
-    </article>
-    <article class="social">
-        <p>FIND ME ON : </p>
-        <span>
-            <figure class="twitter">
-                <a href="https://twitter.com/AloysiousBenoy" target="_blank">
-                    <img src="./src/Screenshot from 2020-04-13 01-32-51.png">
-                </a>
-            </figure>
-        </span>
-        <span>
-            <figure class="reddit">
-                <a href="https://www.reddit.com/user/theraider0ne" target="_blank">
-                    <img src="./src/Screenshot from 2020-04-13 01-33-09.png">
-                </a>
-            </figure>
-        </span>
-        <figure class="github">
-            <a href="https://github.com/aloysiousBenoy" target="_blank"><img src="./src/github-logo.png"> </a>
-        </figure>
-    </article>
-    <footer>
-        <p>Aloysious Benoy | 2020.04 </p>
-    </footer>
+  <!-- This script installs service_worker.js to provide PWA functionality to
+       application. For more information, see:
+       https://developers.google.com/web/fundamentals/primers/service-workers -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('flutter-first-frame', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js?v=3179574968');
+      });
+    }
+  </script>
+  <script src="main.dart.js" type="application/javascript"></script>
 </body>
-
 </html>
